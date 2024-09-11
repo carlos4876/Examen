@@ -1,0 +1,189 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Estilos globales */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Encabezado */
+.header_section {
+    background: #333;
+    color: #fff;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f4f4f4;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"%3E%3Cpath fill="none" stroke="%23ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7"/%3E%3C/svg%3E');
+}
+
+/* Sección Hero */
+.hero_area {
+    margin-top: 60px;
+}
+
+/* Sección Us */
+.us_section {
+    padding: 60px 0;
+    background: #fff;
+}
+
+.us_section .heading_container h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #333;
+}
+
+.us_container .box {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.us_container .box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.us_container .box .img-box img {
+    max-width: 100px;
+    margin-bottom: 20px;
+}
+
+.us_container .box .detail-box h5 {
+    font-size: 20px;
+    color: #333;
+}
+
+.us_container .box .detail-box p {
+    color: #666;
+    font-size: 14px;
+}
+
+/* Sección Info */
+.info_section {
+    background: #f4f4f4;
+    padding: 40px 0;
+}
+
+.info_section .info_items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info_section .item {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.info_section .item:hover {
+    transform: translateY(-10px);
+}
+
+/* Sección de Contacto */
+.contact_section {
+    padding: 60px 0;
+    background: #fff;
+}
+
+.contact_section .heading_container h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #333;
+}
+
+.contact_section .form_container {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact_section .form_container input,
+.contact_section .form_container .message-box {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.contact_section .form_container button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contact_section .form_container button:hover {
+    background: #555;
+}
+
+/* Pie de página */
+.footer_section {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+.footer_section a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer_section a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos de transiciones */
+.transition {
+    transition: all 0.3s ease-in-out;
+}
